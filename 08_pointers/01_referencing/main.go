@@ -14,6 +14,7 @@ func main() {
 	var b = &a
 
 	fmt.Println(b)
+	fmt.Printf("Variable \"b\" is of type: %T \n", b)
 
 	// the above code makes b a pointer to the memory address where an int is stored
 	// b is of type "int pointer"
